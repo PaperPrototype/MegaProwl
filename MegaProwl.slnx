@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="MegaProwl.Editor.csproj" />
+  <Project Path="MegaProwl.Game.csproj" />
+</Solution>

@@ -1,0 +1,970 @@
+{
+  "$id": 1,
+  "$type": "Prowl.Runtime.Resources.Scene, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+  "serializeObj": {
+    "$id": 2,
+    "array": [
+      {
+        "$id": 3,
+        "Name": "Main Camera",
+        "AssetPath": "",
+        "Identifier": "17512c0e-0ef9-4886-a55a-5b809dcb276f",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 1,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 4,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 0F,
+            "Y": 5F,
+            "Z": -15F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": 0.1305262F,
+            "Y": 0F,
+            "Z": 0F,
+            "W": 0.9914449F
+          }
+        },
+        "Components": [
+          {
+            "$id": 5,
+            "$type": "Prowl.Runtime.Camera, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Effects": {
+              "$id": 6,
+              "$values": [
+                {
+                  "$id": 7,
+                  "$type": "Prowl.Runtime.Rendering.TonemapperEffect, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "Type": 3L,
+                  "Contrast": 1.1F,
+                  "Saturation": 1.1F,
+                  "Enabled": true
+                }
+              ]
+            },
+            "ClearFlags": 3L,
+            "ClearColor": {
+              "R": 0F,
+              "G": 0F,
+              "B": 0F,
+              "A": 1F
+            },
+            "CullingMask": {
+              "mask": 4294967295U
+            },
+            "ProjectionMode": 0L,
+            "FieldOfView": 60F,
+            "OrthographicSize": 0.5F,
+            "NearClipPlane": 0.1F,
+            "FarClipPlane": 10000F,
+            "Depth": -1,
+            "Pipeline": NULL,
+            "Target": {
+              "AssetID": "00000000-0000-0000-0000-000000000000"
+            },
+            "HDR": true,
+            "RenderScale": 1F,
+            "_identifier": "8adec189-dd76-4138-9331-05527f9c233e",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewCamera"
+          }
+        ],
+        "Children": [
+
+        ]
+      },
+      {
+        "$id": 8,
+        "Name": "Directional Light",
+        "AssetPath": "",
+        "Identifier": "3199634c-2607-4385-9b61-2e8d9f33d9d8",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 0,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 9,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": -0.3535534F,
+            "Y": 0.3535534F,
+            "Z": 0.14644663F,
+            "W": 0.85355335F
+          }
+        },
+        "Components": [
+          {
+            "$id": 10,
+            "$type": "Prowl.Runtime.DirectionalLight, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "ShadowResolution": 2048L,
+            "Cascades": 2L,
+            "ShadowDistance": 70F,
+            "Color": {
+              "R": 1F,
+              "G": 1F,
+              "B": 1F,
+              "A": 1F
+            },
+            "Intensity": 1F,
+            "ShadowStrength": 1F,
+            "ShadowBias": 0.001F,
+            "ShadowNormalBias": 0F,
+            "CastShadows": true,
+            "ShadowQuality": 1L,
+            "BakeMode": 0L,
+            "_identifier": "1e330566-7fde-484f-8fa5-4e0ef67f311d",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewDirectionalLight"
+          }
+        ],
+        "Children": [
+
+        ]
+      },
+      {
+        "$id": 11,
+        "Name": "Floor",
+        "AssetPath": "",
+        "Identifier": "7feb38ad-64c9-4c09-bba3-d1fcb0a3ab75",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 0,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 12,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F,
+            "W": 1F
+          }
+        },
+        "Components": [
+          {
+            "$id": 13,
+            "$type": "Prowl.Runtime.MeshRenderer, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Mesh": {
+              "AssetID": "38151a92-9ae6-525d-b9cd-13fbcd700c8a"
+            },
+            "Materials": {
+              "$id": 14,
+              "$values": [
+                {
+                  "AssetID": "d7009b28-9353-6559-8847-62e877cec576"
+                }
+              ]
+            },
+            "LightmapIndex": -1,
+            "LightmapScaleOffset": {
+              "X": 1F,
+              "Y": 1F,
+              "Z": 0F,
+              "W": 0F
+            },
+            "_identifier": "90baa9af-5c83-4021-a645-73054d6b195d",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewMeshRenderer"
+          }
+        ],
+        "Children": [
+
+        ]
+      },
+      {
+        "$id": 15,
+        "Name": "Cube",
+        "AssetPath": "",
+        "Identifier": "e8bf7c81-113c-4e2c-a4ac-130b27173f8a",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 0,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 16,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 0F,
+            "Y": 0.5F,
+            "Z": 0F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F,
+            "W": 1F
+          }
+        },
+        "Components": [
+          {
+            "$id": 17,
+            "$type": "Prowl.Runtime.MeshRenderer, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Mesh": {
+              "AssetID": "97e8b0a9-e054-0d51-9663-eb372d776c90"
+            },
+            "Materials": {
+              "$id": 18,
+              "$values": [
+                {
+                  "AssetID": "d7009b28-9353-6559-8847-62e877cec576"
+                }
+              ]
+            },
+            "LightmapIndex": -1,
+            "LightmapScaleOffset": {
+              "X": 1F,
+              "Y": 1F,
+              "Z": 0F,
+              "W": 0F
+            },
+            "_identifier": "f27a1e02-0d50-4398-9b28-32d01120f6bf",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewMeshRenderer"
+          }
+        ],
+        "Children": [
+
+        ]
+      },
+      {
+        "$id": 19,
+        "Name": "Cube (1)",
+        "AssetPath": "",
+        "Identifier": "93ed50f2-f793-4fc6-aa11-68857de2f462",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 0,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 20,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 2F,
+            "Y": 0.5F,
+            "Z": 1F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F,
+            "W": 1F
+          }
+        },
+        "Components": [
+          {
+            "$id": 21,
+            "$type": "Prowl.Runtime.MeshRenderer, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "Mesh": {
+              "AssetID": "97e8b0a9-e054-0d51-9663-eb372d776c90"
+            },
+            "Materials": {
+              "$id": 22,
+              "$values": [
+                {
+                  "AssetID": "d7009b28-9353-6559-8847-62e877cec576"
+                }
+              ]
+            },
+            "LightmapIndex": -1,
+            "LightmapScaleOffset": {
+              "X": 1F,
+              "Y": 1F,
+              "Z": 0F,
+              "W": 0F
+            },
+            "_identifier": "70cd0edf-caee-42c4-95d9-517058af5761",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewMeshRenderer"
+          }
+        ],
+        "Children": [
+
+        ]
+      },
+      {
+        "$id": 23,
+        "Name": "Canvas",
+        "AssetPath": "",
+        "Identifier": "a11c4248-70c8-44c9-9700-f66b8d7f2d64",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 0,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 24,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F,
+            "W": 1F
+          }
+        },
+        "Components": [
+          {
+            "$id": 25,
+            "$type": "Prowl.Vector.RectTransform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "_anchorMin": {
+              "X": 0.5F,
+              "Y": 0.5F
+            },
+            "_anchorMax": {
+              "X": 0.5F,
+              "Y": 0.5F
+            },
+            "_pivot": {
+              "X": 0.5F,
+              "Y": 0.5F
+            },
+            "_sizeDelta": {
+              "X": 100F,
+              "Y": 100F
+            },
+            "_anchoredPosition": {
+              "X": 0F,
+              "Y": 0F
+            },
+            "_identifier": "4ce907f9-d2c2-4d4e-87a5-47ee99e5e36e",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewRectTransform"
+          },
+          {
+            "$id": 26,
+            "$type": "Prowl.Runtime.GameCanvas, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "_renderMode": 0L,
+            "_scaleFactor": 1F,
+            "_sortOrder": 0,
+            "_uiScaleMode": 0L,
+            "_referenceResolution": {
+              "X": 1280F,
+              "Y": 720F
+            },
+            "_matchWidthOrHeight": 0.5F,
+            "_screenMatchMode": 0L,
+            "_identifier": "98d7cf04-b741-4e17-8329-55c5d491bb29",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewGameCanvas"
+          }
+        ],
+        "Children": [
+          {
+            "$id": 27,
+            "Name": "Button",
+            "AssetPath": "",
+            "Identifier": "acc6a1f1-18dd-4f4e-bb36-14c28756d74f",
+            "Static": 0B,
+            "Enabled": 1B,
+            "EnabledInHierarchy": 1B,
+            "TagIndex": 0,
+            "LayerIndex": 0,
+            "HideFlags": 0,
+            "Transform": {
+              "$id": 28,
+              "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+              "_localPosition": {
+                "X": 0F,
+                "Y": 0F,
+                "Z": 0F
+              },
+              "_localScale": {
+                "X": 1F,
+                "Y": 1F,
+                "Z": 1F
+              },
+              "_localRotation": {
+                "X": 0F,
+                "Y": 0F,
+                "Z": 0F,
+                "W": 1F
+              }
+            },
+            "Components": [
+              {
+                "$id": 29,
+                "$type": "Prowl.Vector.RectTransform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "_anchorMin": {
+                  "X": 0.5F,
+                  "Y": 0.5F
+                },
+                "_anchorMax": {
+                  "X": 0.5F,
+                  "Y": 0.5F
+                },
+                "_pivot": {
+                  "X": 0.5F,
+                  "Y": 0.5F
+                },
+                "_sizeDelta": {
+                  "X": 705.7342F,
+                  "Y": 100.00006F
+                },
+                "_anchoredPosition": {
+                  "X": 155.57889F,
+                  "Y": 19.493713F
+                },
+                "_identifier": "cb6e6ea8-2eb0-4035-90ad-33c007981d16",
+                "_enabled": true,
+                "_enabledInHierarchy": true,
+                "HideFlags": 0L,
+                "AssetPath": "",
+                "AssetID": "00000000-0000-0000-0000-000000000000",
+                "Name": "NewRectTransform"
+              },
+              {
+                "$id": 30,
+                "$type": "Prowl.Runtime.UI.UIImage, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "_sprite": {
+                  "AssetID": "bff73be2-cd62-785e-928f-0efd1487829c"
+                },
+                "_material": {
+                  "AssetID": "00000000-0000-0000-0000-000000000000"
+                },
+                "_color": {
+                  "R": 1F,
+                  "G": 1F,
+                  "B": 1F,
+                  "A": 1F
+                },
+                "_preserveAspect": false,
+                "_type": 1L,
+                "_pixelsPerUnitMultiplier": 1F,
+                "_fillMethod": 4L,
+                "_fillOrigin": 0,
+                "_fillAmount": 1F,
+                "_fillClockwise": false,
+                "_raycastTarget": true,
+                "_identifier": "7bef18b1-517a-4c50-9d11-d519eda0babd",
+                "_enabled": true,
+                "_enabledInHierarchy": true,
+                "HideFlags": 0L,
+                "AssetPath": "",
+                "AssetID": "00000000-0000-0000-0000-000000000000",
+                "Name": "NewUIImage"
+              },
+              {
+                "$id": 31,
+                "$type": "Prowl.Runtime.UI.UIButton, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                "_onClick": {
+                  "$id": 32,
+                  "_calls": {
+                    "$id": 33,
+                    "$values": [
+                      {
+                        "$id": 34,
+                        "_target": {
+                          "$id": 35,
+                          "$type": "MegaProwl.SceneLoader, MegaProwl.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "gameScene": {
+                            "AssetID": "26f3c5b1-ba32-4e25-a034-03935c261a92"
+                          },
+                          "_identifier": "b0e3c0c9-8755-4f29-91eb-e829a85039b1",
+                          "_enabled": true,
+                          "_enabledInHierarchy": true,
+                          "HideFlags": 0L,
+                          "AssetPath": "",
+                          "AssetID": "00000000-0000-0000-0000-000000000000",
+                          "Name": "NewSceneLoader"
+                        },
+                        "_member": "LoadGame",
+                        "_argType": 0L,
+                        "_boolArg": false,
+                        "_intArg": 0,
+                        "_floatArg": 0F,
+                        "_stringArg": "",
+                        "_objectArg": NULL
+                      }
+                    ]
+                  }
+                },
+                "_interactable": true,
+                "_targetGraphic": {
+                  "$id": 30
+                },
+                "_normalColor": {
+                  "R": 1F,
+                  "G": 1F,
+                  "B": 1F,
+                  "A": 1F
+                },
+                "_highlightedColor": {
+                  "R": 0.96F,
+                  "G": 0.96F,
+                  "B": 0.96F,
+                  "A": 1F
+                },
+                "_pressedColor": {
+                  "R": 0.78F,
+                  "G": 0.78F,
+                  "B": 0.78F,
+                  "A": 1F
+                },
+                "_selectedColor": {
+                  "R": 0.96F,
+                  "G": 0.96F,
+                  "B": 0.96F,
+                  "A": 1F
+                },
+                "_disabledColor": {
+                  "R": 0.78F,
+                  "G": 0.78F,
+                  "B": 0.78F,
+                  "A": 0.5F
+                },
+                "_transitionDuration": 0.08F,
+                "_identifier": "5c0d3daa-26ff-41eb-9558-9e10845bea34",
+                "_enabled": true,
+                "_enabledInHierarchy": true,
+                "HideFlags": 0L,
+                "AssetPath": "",
+                "AssetID": "00000000-0000-0000-0000-000000000000",
+                "Name": "NewUIButton"
+              }
+            ],
+            "Children": [
+              {
+                "$id": 36,
+                "Name": "Text",
+                "AssetPath": "",
+                "Identifier": "0b7b062c-797b-4c8c-b69d-cd8f0e8daa79",
+                "Static": 0B,
+                "Enabled": 1B,
+                "EnabledInHierarchy": 1B,
+                "TagIndex": 0,
+                "LayerIndex": 0,
+                "HideFlags": 0,
+                "Transform": {
+                  "$id": 37,
+                  "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                  "_localPosition": {
+                    "X": 0F,
+                    "Y": 0F,
+                    "Z": 0F
+                  },
+                  "_localScale": {
+                    "X": 1F,
+                    "Y": 1F,
+                    "Z": 1F
+                  },
+                  "_localRotation": {
+                    "X": 0F,
+                    "Y": 0F,
+                    "Z": 0F,
+                    "W": 1F
+                  }
+                },
+                "Components": [
+                  {
+                    "$id": 38,
+                    "$type": "Prowl.Vector.RectTransform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "_anchorMin": {
+                      "X": 0.5F,
+                      "Y": 0.5F
+                    },
+                    "_anchorMax": {
+                      "X": 0.5F,
+                      "Y": 0.5F
+                    },
+                    "_pivot": {
+                      "X": 0.5F,
+                      "Y": 0.5F
+                    },
+                    "_sizeDelta": {
+                      "X": 94.71466F,
+                      "Y": 99.19687F
+                    },
+                    "_anchoredPosition": {
+                      "X": -1.0368347F,
+                      "Y": -0.19734192F
+                    },
+                    "_identifier": "534ad27c-91b5-4760-9030-eafcfb045f66",
+                    "_enabled": true,
+                    "_enabledInHierarchy": true,
+                    "HideFlags": 0L,
+                    "AssetPath": "",
+                    "AssetID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "NewRectTransform"
+                  },
+                  {
+                    "$id": 39,
+                    "$type": "Prowl.Runtime.TextComponent, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                    "_font": {
+                      "AssetID": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "_textColor": {
+                      "R": 0F,
+                      "G": 0F,
+                      "B": 0F,
+                      "A": 1F
+                    },
+                    "_text": "Click me to Play",
+                    "_alignment": 48L,
+                    "_size": 20,
+                    "_quality": 64L,
+                    "_richText": false,
+                    "_material": {
+                      "AssetID": "00000000-0000-0000-0000-000000000000"
+                    },
+                    "_identifier": "f9cf4da2-43d5-4ac7-9135-b6abd3e41f7f",
+                    "_enabled": true,
+                    "_enabledInHierarchy": true,
+                    "HideFlags": 0L,
+                    "AssetPath": "",
+                    "AssetID": "00000000-0000-0000-0000-000000000000",
+                    "Name": "NewTextComponent"
+                  }
+                ],
+                "Children": [
+
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": 27
+      },
+      {
+        "$id": 36
+      },
+      {
+        "$id": 40,
+        "Name": "Event System",
+        "AssetPath": "",
+        "Identifier": "cb80a55a-8e75-49c7-99d5-b32649d98904",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 0,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 41,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F,
+            "W": 1F
+          }
+        },
+        "Components": [
+          {
+            "$id": 42,
+            "$type": "Prowl.Runtime.UI.EventSystem, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "_dragThreshold": 4F,
+            "_multiClickWindow": 0.4F,
+            "_submitKey": 257L,
+            "_cancelKey": 256L,
+            "_identifier": "66b4e735-105c-4955-9e80-26204e9a25a6",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewEventSystem"
+          }
+        ],
+        "Children": [
+
+        ]
+      },
+      {
+        "$id": 43,
+        "Name": "SceneLoader",
+        "AssetPath": "",
+        "Identifier": "f2e85ab9-5d84-456a-b216-db2351e6e6e7",
+        "Static": 0B,
+        "Enabled": 1B,
+        "EnabledInHierarchy": 1B,
+        "TagIndex": 0,
+        "LayerIndex": 0,
+        "HideFlags": 0,
+        "Transform": {
+          "$id": 44,
+          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+          "_localPosition": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F
+          },
+          "_localScale": {
+            "X": 1F,
+            "Y": 1F,
+            "Z": 1F
+          },
+          "_localRotation": {
+            "X": 0F,
+            "Y": 0F,
+            "Z": 0F,
+            "W": 1F
+          }
+        },
+        "Components": [
+          {
+            "$id": 35,
+            "$type": "MegaProwl.SceneLoader, MegaProwl.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+          }
+        ],
+        "Children": [
+
+        ]
+      }
+    ]
+  },
+  "_goIdentifiers": {
+    "$id": 45,
+    "array": [
+      "17512c0e-0ef9-4886-a55a-5b809dcb276f",
+      "3199634c-2607-4385-9b61-2e8d9f33d9d8",
+      "7feb38ad-64c9-4c09-bba3-d1fcb0a3ab75",
+      "e8bf7c81-113c-4e2c-a4ac-130b27173f8a",
+      "93ed50f2-f793-4fc6-aa11-68857de2f462",
+      "a11c4248-70c8-44c9-9700-f66b8d7f2d64",
+      "acc6a1f1-18dd-4f4e-bb36-14c28756d74f",
+      "0b7b062c-797b-4c8c-b69d-cd8f0e8daa79",
+      "cb80a55a-8e75-49c7-99d5-b32649d98904",
+      "f2e85ab9-5d84-456a-b216-db2351e6e6e7"
+    ]
+  },
+  "_compIdentifiers": {
+    "$id": 46,
+    "array": [
+      "8adec189-dd76-4138-9331-05527f9c233e",
+      "1e330566-7fde-484f-8fa5-4e0ef67f311d",
+      "90baa9af-5c83-4021-a645-73054d6b195d",
+      "f27a1e02-0d50-4398-9b28-32d01120f6bf",
+      "70cd0edf-caee-42c4-95d9-517058af5761",
+      "4ce907f9-d2c2-4d4e-87a5-47ee99e5e36e",
+      "98d7cf04-b741-4e17-8329-55c5d491bb29",
+      "cb6e6ea8-2eb0-4035-90ad-33c007981d16",
+      "7bef18b1-517a-4c50-9d11-d519eda0babd",
+      "5c0d3daa-26ff-41eb-9558-9e10845bea34",
+      "534ad27c-91b5-4760-9030-eafcfb045f66",
+      "f9cf4da2-43d5-4ac7-9135-b6abd3e41f7f",
+      "66b4e735-105c-4955-9e80-26204e9a25a6",
+      "b0e3c0c9-8755-4f29-91eb-e829a85039b1"
+    ]
+  },
+  "_compIdOffsets": {
+    "$id": 47,
+    "array": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      7,
+      10,
+      12,
+      13,
+      14
+    ]
+  },
+  "Fog": {
+    "Mode": 3L,
+    "Color": {
+      "R": 0.5F,
+      "G": 0.5F,
+      "B": 0.5F,
+      "A": 1F
+    },
+    "Start": 20F,
+    "End": 100F,
+    "Density": 0.01F
+  },
+  "Ambient": {
+    "Mode": 0L,
+    "Strength": 1F,
+    "Color": {
+      "X": 0.43F,
+      "Y": 0.55F,
+      "Z": 0.65F,
+      "W": 1F
+    },
+    "SkyColor": {
+      "X": 0.3F,
+      "Y": 0.3F,
+      "Z": 0.4F,
+      "W": 1F
+    },
+    "GroundColor": {
+      "X": 0.2F,
+      "Y": 0.2F,
+      "Z": 0.2F,
+      "W": 1F
+    }
+  },
+  "Skybox": {
+    "Mode": 0L,
+    "SolidColor": {
+      "R": 0.2F,
+      "G": 0.3F,
+      "B": 0.5F,
+      "A": 1F
+    },
+    "GradientTop": {
+      "R": 0.4F,
+      "G": 0.6F,
+      "B": 0.9F,
+      "A": 1F
+    },
+    "GradientBottom": {
+      "R": 0.8F,
+      "G": 0.8F,
+      "B": 0.7F,
+      "A": 1F
+    },
+    "GradientExponent": 1F,
+    "CustomMaterial": {
+      "AssetID": "00000000-0000-0000-0000-000000000000"
+    }
+  },
+  "BakedLighting": {
+    "$id": 48,
+    "Lightmaps": {
+      "$id": 49,
+      "$values": [
+
+      ]
+    },
+    "ProbePositions": {
+      "$id": 50,
+      "array": [
+
+      ]
+    },
+    "ProbeSH": {
+      "$id": 51,
+      "array": [
+
+      ]
+    },
+    "ProbeTetrahedra": {
+      "$id": 52,
+      "array": [
+
+      ]
+    },
+    "ProbeTetNeighbours": {
+      "$id": 52
+    }
+  },
+  "LightmapBake": {
+    "$id": 53,
+    "AtlasSize": 1024,
+    "TexelsPerUnit": 20F,
+    "DilatePixels": 2,
+    "Bounces": 2,
+    "Samples": 64,
+    "ProbeSamples": 256,
+    "DoBackfaceCull": false,
+    "RussianRoulette": 0F,
+    "Denoise": false,
+    "DenoiseRadius": 5,
+    "BakeSkyLighting": false,
+    "IgnoreAlbedo": false
+  },
+  "AssetPath": "",
+  "AssetID": "00000000-0000-0000-0000-000000000000",
+  "Name": "Main"
+}
