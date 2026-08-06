@@ -502,7 +502,7 @@
                 "$id": 30,
                 "$type": "Prowl.Runtime.UI.UIImage, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
                 "_sprite": {
-                  "AssetID": "bff73be2-cd62-785e-928f-0efd1487829c"
+                  "AssetID": "57358a0b-6180-50a0-3d12-e4062b4f126a"
                 },
                 "_material": {
                   "AssetID": "00000000-0000-0000-0000-000000000000"
@@ -542,7 +542,55 @@
                         "_target": {
                           "$id": 35,
                           "$type": "MegaProwl.SceneLoader, MegaProwl.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
-                          "dontDestroy": NULL,
+                          "dontDestroy": {
+                            "$id": 36,
+                            "array": [
+                              {
+                                "$id": 3
+                              },
+                              {
+                                "$id": 37,
+                                "Name": "SceneLoader",
+                                "AssetPath": "",
+                                "Identifier": "f2e85ab9-5d84-456a-b216-db2351e6e6e7",
+                                "Static": 0B,
+                                "Enabled": 1B,
+                                "EnabledInHierarchy": 1B,
+                                "TagIndex": 0,
+                                "LayerIndex": 0,
+                                "HideFlags": 0,
+                                "Transform": {
+                                  "$id": 38,
+                                  "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+                                  "_localPosition": {
+                                    "X": 0F,
+                                    "Y": 0F,
+                                    "Z": 0F
+                                  },
+                                  "_localScale": {
+                                    "X": 1F,
+                                    "Y": 1F,
+                                    "Z": 1F
+                                  },
+                                  "_localRotation": {
+                                    "X": 0F,
+                                    "Y": 0F,
+                                    "Z": 0F,
+                                    "W": 1F
+                                  }
+                                },
+                                "Components": [
+                                  {
+                                    "$id": 35,
+                                    "$type": "MegaProwl.SceneLoader, MegaProwl.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+                                  }
+                                ],
+                                "Children": [
+
+                                ]
+                              }
+                            ]
+                          },
                           "gameScene": {
                             "AssetID": "5d50a02f-c768-4eb1-94fa-fb45699c0329"
                           },
@@ -611,7 +659,7 @@
             ],
             "Children": [
               {
-                "$id": 36,
+                "$id": 39,
                 "Name": "Text",
                 "AssetPath": "",
                 "Identifier": "0b7b062c-797b-4c8c-b69d-cd8f0e8daa79",
@@ -622,7 +670,7 @@
                 "LayerIndex": 0,
                 "HideFlags": 0,
                 "Transform": {
-                  "$id": 37,
+                  "$id": 40,
                   "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
                   "_localPosition": {
                     "X": 0F,
@@ -643,7 +691,7 @@
                 },
                 "Components": [
                   {
-                    "$id": 38,
+                    "$id": 41,
                     "$type": "Prowl.Vector.RectTransform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
                     "_anchorMin": {
                       "X": 0.5F,
@@ -674,7 +722,7 @@
                     "Name": "NewRectTransform"
                   },
                   {
-                    "$id": 39,
+                    "$id": 42,
                     "$type": "Prowl.Runtime.TextComponent, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
                     "_font": {
                       "AssetID": "00000000-0000-0000-0000-000000000000"
@@ -714,65 +762,13 @@
         "$id": 27
       },
       {
-        "$id": 36
-      },
-      {
-        "$id": 40,
-        "Name": "Event System",
-        "AssetPath": "",
-        "Identifier": "cb80a55a-8e75-49c7-99d5-b32649d98904",
-        "Static": 0B,
-        "Enabled": 1B,
-        "EnabledInHierarchy": 1B,
-        "TagIndex": 0,
-        "LayerIndex": 0,
-        "HideFlags": 0,
-        "Transform": {
-          "$id": 41,
-          "$type": "Prowl.Vector.Transform, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-          "_localPosition": {
-            "X": 0F,
-            "Y": 0F,
-            "Z": 0F
-          },
-          "_localScale": {
-            "X": 1F,
-            "Y": 1F,
-            "Z": 1F
-          },
-          "_localRotation": {
-            "X": 0F,
-            "Y": 0F,
-            "Z": 0F,
-            "W": 1F
-          }
-        },
-        "Components": [
-          {
-            "$id": 42,
-            "$type": "Prowl.Runtime.UI.EventSystem, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
-            "_dragThreshold": 4F,
-            "_multiClickWindow": 0.4F,
-            "_submitKey": 257L,
-            "_cancelKey": 256L,
-            "_identifier": "66b4e735-105c-4955-9e80-26204e9a25a6",
-            "_enabled": true,
-            "_enabledInHierarchy": true,
-            "HideFlags": 0L,
-            "AssetPath": "",
-            "AssetID": "00000000-0000-0000-0000-000000000000",
-            "Name": "NewEventSystem"
-          }
-        ],
-        "Children": [
-
-        ]
+        "$id": 39
       },
       {
         "$id": 43,
-        "Name": "SceneLoader",
+        "Name": "Event System",
         "AssetPath": "",
-        "Identifier": "f2e85ab9-5d84-456a-b216-db2351e6e6e7",
+        "Identifier": "cb80a55a-8e75-49c7-99d5-b32649d98904",
         "Static": 0B,
         "Enabled": 1B,
         "EnabledInHierarchy": 1B,
@@ -801,18 +797,32 @@
         },
         "Components": [
           {
-            "$id": 35,
-            "$type": "MegaProwl.SceneLoader, MegaProwl.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null"
+            "$id": 45,
+            "$type": "Prowl.Runtime.UI.EventSystem, Prowl.Runtime, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null",
+            "_dragThreshold": 4F,
+            "_multiClickWindow": 0.4F,
+            "_submitKey": 257L,
+            "_cancelKey": 256L,
+            "_identifier": "66b4e735-105c-4955-9e80-26204e9a25a6",
+            "_enabled": true,
+            "_enabledInHierarchy": true,
+            "HideFlags": 0L,
+            "AssetPath": "",
+            "AssetID": "00000000-0000-0000-0000-000000000000",
+            "Name": "NewEventSystem"
           }
         ],
         "Children": [
 
         ]
+      },
+      {
+        "$id": 37
       }
     ]
   },
   "_goIdentifiers": {
-    "$id": 45,
+    "$id": 46,
     "array": [
       "17512c0e-0ef9-4886-a55a-5b809dcb276f",
       "3199634c-2607-4385-9b61-2e8d9f33d9d8",
@@ -827,7 +837,7 @@
     ]
   },
   "_compIdentifiers": {
-    "$id": 46,
+    "$id": 47,
     "array": [
       "8adec189-dd76-4138-9331-05527f9c233e",
       "1e330566-7fde-484f-8fa5-4e0ef67f311d",
@@ -846,7 +856,7 @@
     ]
   },
   "_compIdOffsets": {
-    "$id": 47,
+    "$id": 48,
     "array": [
       0,
       1,
@@ -921,37 +931,37 @@
     }
   },
   "BakedLighting": {
-    "$id": 48,
+    "$id": 49,
     "Lightmaps": {
-      "$id": 49,
+      "$id": 50,
       "$values": [
 
       ]
     },
     "ProbePositions": {
-      "$id": 50,
-      "array": [
-
-      ]
-    },
-    "ProbeSH": {
       "$id": 51,
       "array": [
 
       ]
     },
-    "ProbeTetrahedra": {
+    "ProbeSH": {
       "$id": 52,
       "array": [
 
       ]
     },
+    "ProbeTetrahedra": {
+      "$id": 53,
+      "array": [
+
+      ]
+    },
     "ProbeTetNeighbours": {
-      "$id": 52
+      "$id": 53
     }
   },
   "LightmapBake": {
-    "$id": 53,
+    "$id": 54,
     "AtlasSize": 1024,
     "TexelsPerUnit": 20F,
     "DilatePixels": 2,

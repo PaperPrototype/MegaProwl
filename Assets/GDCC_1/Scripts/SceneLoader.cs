@@ -19,7 +19,7 @@ public class SceneLoader : MonoBehaviour
         {
             Scene.DontDestroyOnLoad(bla);
         }
-        Scene.DontDestroyOnLoad(gameScene.Res.RootObjects.Single());
+        Scene.DontDestroyOnLoad(gameScene.Res.RootObjects.First());
         Scene.Load(gameScene.Res);
     }
 }
