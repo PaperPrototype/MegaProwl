@@ -1,0 +1,74 @@
+{
+  "guid": "2ab148a4-8921-4b4c-a445-27fa31a16ace",
+  "importer": "TextureImporter",
+  "importerVersion": 1,
+  "settings": {
+    "generateMipmaps": true,
+    "sRGB": true,
+    "minFilter": 5,
+    "magFilter": 1,
+    "wrapMode": 0,
+    "sprite": {
+      "$id": 1,
+      "Mode": 2L,
+      "PixelsPerUnit": 100F,
+      "GenerateTightMesh": false,
+      "TightMeshDetail": 1.5F,
+      "TightMeshAlphaThreshold": 1B,
+      "SecondaryTextures": {
+        "$id": 2,
+        "entries": [
+
+        ]
+      },
+      "SlicingTool": 1L,
+      "GeneratedPivot": 0L,
+      "GridCellSize": {
+        "X": 16,
+        "Y": 16
+      },
+      "GridCellCount": {
+        "X": 4,
+        "Y": 4
+      },
+      "GridOffset": {
+        "X": 0,
+        "Y": 0
+      },
+      "GridPadding": {
+        "X": 0,
+        "Y": 0
+      },
+      "KeepEmptyRects": false,
+      "IsoIsAlternate": false,
+      "Slices": {
+        "$id": 3,
+        "$values": [
+          {
+            "$id": 4,
+            "Id": "4a0fb52a-0937-40f6-87d2-a70b1b83863e",
+            "Name": "wooden-gold-buttons_0",
+            "Rect": [
+              348,
+              432,
+              361,
+              261
+            ],
+            "Alignment": 0L,
+            "CustomPivot": {
+              "X": 0.5F,
+              "Y": 0.5F
+            },
+            "PivotUnit": 0L,
+            "Border": {
+              "X": 29.976776F,
+              "Y": 27.85904F,
+              "Z": 25.45111F,
+              "W": 34.33499F
+            }
+          }
+        ]
+      }
+    }
+  }
+}

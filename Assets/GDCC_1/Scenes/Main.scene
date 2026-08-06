@@ -542,8 +542,9 @@
                         "_target": {
                           "$id": 35,
                           "$type": "MegaProwl.SceneLoader, MegaProwl.Game, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null",
+                          "dontDestroy": NULL,
                           "gameScene": {
-                            "AssetID": "26f3c5b1-ba32-4e25-a034-03935c261a92"
+                            "AssetID": "5d50a02f-c768-4eb1-94fa-fb45699c0329"
                           },
                           "_identifier": "b0e3c0c9-8755-4f29-91eb-e829a85039b1",
                           "_enabled": true,
